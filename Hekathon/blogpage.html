@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1> Blog App</h1>
+
+    <div id="postForm">
+        <input type="text" id="title" placeholder="Post Title" />
+        <textarea id="content" placeholder="Write your post here..." rows="4"></textarea>
+        <button onclick="addPost()">Publish Post</button>
+    </div>
+
+    <div id="blogPosts">
+        <!-- Blog posts will appear here -->
+    </div>
+    <button class="btn btn-outline-success" type="submit" ><a href="./index.html"> Go to home </a></button>
+<script src="app.js"></script>
+</body>
+</html>
